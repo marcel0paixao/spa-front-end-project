@@ -1,13 +1,10 @@
 # spa-front-end-project
 <<<<<<< HEAD
 ## Project
-This is a front-end project of an SPA and Beauty Center projected by w51 Agency and developed by me, as a job interview pratical test. The web design isn't mine, I just developed the front-end of the site, the link of the original project is in the end of the readme.
+This is a front-end project of an SPA and Beauty Center developed by me, as a job interview pratical test. The web design isn't mine, I just developed the front-end of the site.
 
 ## Landing page
 ![](/img/print.png)
-
-The original project is here:
-https://github.com/carlosjosedesign/teste-frontend
 
 # Author
 I'm Marcelo da Paixão, a student of computer science and a beginner full-stack developer.
