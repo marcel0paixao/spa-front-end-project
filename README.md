@@ -26,11 +26,3 @@ Or per telephone:
 +55 11 98971-9266
 <br />
 +55 11 2359-3783
-=======
-SPA
-<<<<<<< Updated upstream
-.
-=======
-.
->>>>>>> 6f8a270538eb73d91ebcb672d6fc4598e7e54557
->>>>>>> Stashed changes
