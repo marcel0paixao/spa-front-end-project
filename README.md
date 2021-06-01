@@ -1,5 +1,5 @@
 # spa-front-end-project
-<<<<<<< HEAD
+
 ## Project
 This is a front-end project of an SPA and Beauty Center developed by me, as a job interview pratical test. The web design isn't mine, I just developed the front-end of the site.
 
