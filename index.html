@@ -22,6 +22,12 @@
 
     <!-- VueJs -->
     <script type="module" src="/js/script.js"></script>
+
+    <!-- Script-->
+    <script src="js/script.js"></script>
+
+    <!-- Title icon-->
+    <link rel="shortcut icon" href="img/logo3.png" type="image/x-icon">
 </head>
 <body>
     <img id="womanSection1" src="img/womanSection1.png" alt="">
@@ -92,33 +98,55 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="row" id="three">
-            <div class="col-12 col-xl-3">
-                <img class="image" id="item1" src="img/item1.png" alt="img">
+    <section id="three">
+        <div class="image">
+            <img class="img" src="img/item1.png" alt="img">
+            <div class="img_overlay">
+                <img src="img/iconOverlay.png" alt="">
+                <div class="img_title">
+                    <h4 class="mb-4">Body treatment</h4>
+                </div>
             </div>
-            <div class="col-12 col-xl-3">
-                <img id="item2" src="img/item2.png" alt="">
+        </div>
+        <div class="image">
+            <img class="img" src="img/item2.png" alt="img">
+            <div class="img_overlay">
+                <img src="img/iconOverlay.png" alt="">
+                <div class="img_title">
+                    <h4 class="mb-4">Body treatment</h4>
+                </div>
             </div>
-            <div class="col-12 col-xl-3">
-                <img id="item3" src="img/item3.png" alt="">
+        </div>
+        <div class="image">
+            <img class="img" src="img/item3.png" alt="img">
+            <div class="img_overlay">
+                <img src="img/iconOverlay.png" alt="">
+                <div class="img_title">
+                    <h4 class="mb-4">Body treatment</h4>
+                </div>
             </div>
-            <div class="col-12 col-xl-3">
-                <img id="item4" src="img/item4.png" alt="">
+        </div>
+        <div class="image" id="item4">
+            <img class="img" src="img/item4.png" alt="img">
+            <div class="img_overlay">
+                <img src="img/iconOverlay.png" alt="">
+                <div class="img_title">
+                    <h4 class="mb-4">Body treatment</h4>
+                </div>
             </div>
         </div>
     </section>
     <section id="four">
         <div class="container">
-                <div class="row">
+                <div class="row cards">
                     <div class="col-md-12 text">
                         <h1 class="h1 md-4 ml-5">Popular Procedures</h1>
                         <p>To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
                     </div>
-                    <div class="col-md-4 cards">
-                        <div class="card">
-                            <img src="img/card1.png" alt="">
-                            <div class="card-body">
+                    <div class="col-md-4">
+                        <div class="card p-3">
+                            <img class="mb-3" src="img/card1.png" alt="">
+                            <div class="card-body mb-3">
                                 <h4 class="card-title mb-4">Massage Therapy</h4>
                                 <p class="card-text">Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
                                 <button class="button2">READ MORE</button>
@@ -126,19 +154,19 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card">
-                            <img src="img/card2.png" alt="">
+                        <div class="card p-3">
+                            <img class="mb-3" src="img/card2.png" alt="">
                             <div class="card-body">
-                                <h4 class="card-title">Beauty Care</h4>
+                                <h4 class="card-title mb-3">Beauty Care</h4>
                                 <p class="card-text">Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
                                 <button class="button2">READ MORE</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card">
-                            <img src="img/card3.png" alt="">
-                            <div class="card-body">
+                        <div class="card p-3">
+                            <img class="mb-3" src="img/card3.png" alt="">
+                            <div class="card-body mb-3">
                                 <h4 class="card-title">Executive Reflexology</h4>
                                 <p class="card-text">Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
                                 <button class="button2">READ MORE</button>
@@ -148,9 +176,8 @@
             </div>
         </div>
     </section>
-    <section style="background-color: rgb(255, 255, 255); width: 100%; height: 1030px;"></section>
     <section id="five">
-        <div class="mb-3">
+        <div>
             <img src="img/quote.png" alt="" id="quote">
         </div>
         <div id="carousel-subtitles" class="carousel slide mt-4" data-ride="carousel">
@@ -171,7 +198,7 @@
                     </div>
                     <div>
                         <img src="img/profile.png" alt="" width="80px" style="border-radius: 50px;">
-                        <div class="mb-5"><h5 style="font-weight: bold;">Jack Marsh, </h5>Executive</div>
+                        <p class="mb-5 h5"><strong>Jack Marsh,</strong> Executive</p>
                     </div>
                 </div>
               </div>
@@ -186,7 +213,7 @@
                     </div>
                     <div>
                         <img src="img/profile.png" alt="" width="80px" style="border-radius: 50px;">
-                        <div class="mb-5"><h5 style="font-weight: bold;">Jack Marsh, </h5>Executive</div>
+                        <p class="mb-5 h5"><strong>Jack Marsh,</strong> Executive</p>
                     </div>
                 </div>
               </div>
@@ -201,7 +228,7 @@
                     </div>
                     <div>
                         <img src="img/profile.png" alt="" width="80px" style="border-radius: 50px;">
-                        <div class="mb-5"><h5 style="font-weight: bold;">Jack Marsh, </h5>Executive</div>
+                        <p class="mb-5 h5"><strong>Jack Marsh,</strong> Executive</p>
                     </div>
                 </div>
               </div>
@@ -216,7 +243,7 @@
                     </div>
                     <div>
                         <img src="img/profile.png" alt="" width="80px" style="border-radius: 50px;">
-                        <div class="mb-5"><h5 style="font-weight: bold;">Jack Marsh, </h5>Executive</div>
+                        <p class="mb-5 h5"><strong>Jack Marsh,</strong> Executive</p>
                     </div>
                 </div>
               </div>
@@ -226,7 +253,7 @@
     </section>
 
     <section>
-        <div id="six" style="margin-left: 20%; margin-right: auto;">
+        <div id="six">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text">
@@ -307,14 +334,42 @@
         </div>
     </section>
     <section id="seven">
-            <div class="row">
-                <div class="col-4" style="margin-left: -850px;">
-                    <img src="img/form1.png" alt="">
+        <div class="one">
+            <img src="img/form1.png" alt="">
+        </div>
+        <div class="two">
+            <form class="form" action="">
+                <div class="row row1">
+                    <input type="text" placeholder="NAME">
+                    <input type="email" name="" id="" placeholder="EMAIL ADDRESS">
                 </div>
-            </div>
+                <div class="row row2">
+                    <select name="" id="">
+                        <option value="">SELECT SERVICE</option>
+                        <option value="">SELECT SERVICE</option>
+                        <option value="">SELECT SERVICE</option>
+                        <option value="">SELECT SERVICE</option>
+                        <option value="">SELECT SERVICE</option>
+                        <option value="">SELECT SERVICE</option>
+                        <option value="">SELECT SERVICE</option>
+                    </select>
+                    <input type="tel" name="" id="" placeholder="PHONE NUMBER">
+                </div>
+                <div class="row row3">
+                    <input type="text" onfocus="setDate()" id="seven_date" placeholder="DATE">
+                    <input type="text" onfocus="setTime()" id="seven_time" placeholder="TIME">
+                </div>
+                <div class="row row4">
+                    <input type="text" placeholder="YOUR NOTES">
+                </div>
+                <div class="row row5">
+                    <input class="button2" type="submit" value="Make an Appointment">
+                </div>
+            </form>
+        </div>
     </section>
 
-    <section id="four">
+    <section id="eight">
         <div class="container">
                 <div class="row">
                     <div class="col-md-12 text">
@@ -326,7 +381,7 @@
                             <img src="img/card7.png" alt="">
                             <div class="card-body">
                                 <p class="card-text">RELAXATION | JULY 03, 2019</p>
-                                <h4 class="card-title mb-4">Massage Therapy</h4>
+                                <h4 class="card-title">Had seed herb grass mids</h4>
                                 <p class="card-text">Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
                                 <button class="button2">READ MORE</button>
                             </div>
@@ -337,7 +392,7 @@
                             <img src="img/card8.png" alt="">
                             <div class="card-body">
                                 <p class="card-text">RELAXATION | JULY 03, 2019</p>
-                                <h4 class="card-title">Beauty Care</h4>
+                                <h4 class="card-title">Divid image unto creeping</h4>
                                 <p class="card-text">Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
                                 <button class="button2">READ MORE</button>
                             </div>
@@ -348,7 +403,7 @@
                             <img src="img/card9.png" alt="">
                             <div class="card-body">
                                 <p class="card-text">RELAXATION | JULY 03, 2019</p>
-                                <h4 class="card-title">Executive Reflexology</h4>
+                                <h4 class="card-title">Had seed herb grass mids</h4>
                                 <p class="card-text">Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
                                 <button class="button2">READ MORE</button>
                             </div>
@@ -360,16 +415,28 @@
     <section id="nine">
         <div class="container">
             <div class="row">
-                <h2 class="h1" style="margin-left: auto; margin-right: auto;">Get in Touch</h2>
-                <p style="margin: 20px 150px 20px 150px; text-align: center;">To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
-                <div class="col-4">
-                    <ul style="list-style: none; margin: 30px; padding: 30px;">
-                        <li style="margin-bottom: 30px;">Residencia</li>
-                        <li style="margin-bottom: 30px;">Email</li>
-                        <li style="margin-bottom: 30px;">Telefone</li>
-                    </ul>
+                <div class="text mb-5">
+                    <h1 class="mb-4">Get in Touch</h1>
+                    <p>To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
                 </div>
-                <div class="col-8">
+                <div class="col-md-5 pl-5 pt-4 contact">
+                    <div class="ml-5">
+                        <img class="" src="img/map.png" alt="">
+                        <span>848 E 28TH ST, BROOKLYN</span>
+                        <p id="address">NEW YORK, USA</p>
+                    </div>
+                    <div class="ml-5 mt-4">
+                        <img class="" src="img/email.png" alt="">
+                        <span>EXAMPLE@LEOSPA.COM</span>
+                        <p>EXAMPLE@LEOSPA.COM</p>
+                    </div>
+                    <div class="ml-5 mt-4">
+                        <img class="" src="img/phone.png" alt="">
+                        <span>+02 365 2365 3265 (02)</span>
+                        <p>+01 365 2365 3265 (04)</p>
+                    </div>
+                </div>
+                <div class="col-7">
                     <form action="" class="mt-4">
                         <div class="row">
                             <input type="text" placeholder="FISRT NAME">
@@ -378,16 +445,68 @@
                             <input type="email" name="" id="" placeholder="EMAIL ADDRESS">
                         </div>
                         <div class="row">
-                            <input type="text" placeholder="WRITE COMMENT">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="WRITE COMMENT"></textarea>
                         </div>
-                        <div class="row">
-                            <button class="button2 ml-4" type="submit">SUBMIT NOW</button>
+                        <div class="row btn">
+                            <input class="button2 mt-2" type="submit" value="SUBMIT NOW">
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </section>
-    <footer>Footer</footer>
+    <footer>
+        <div class="container">
+            <div class="row logo">
+                <a href="">
+                    <img src="img/logo3.png" alt="">
+                    <h2>Leospa</h2>
+                </a>
+            </div>
+            <div class="row">
+                <ul class="">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">ABOUT<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">FEATURE<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">SERVICE<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">CONTACT<span class="sr-only">(current)</span></a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="row">
+                <ul class="social">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">
+                        <img src="img/fb.png" alt="">
+                      </a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">
+                        <img src="img/twitter.png" alt="">
+                      </a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">
+                        <img src="img/ig.png" alt="">
+                      </a>
+                    </li>
+                    <li class="nav-item active last">
+                      <a class="nav-link" href="#">
+                        <img src="img/vimeo.png" alt="">
+                      </a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
