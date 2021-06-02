@@ -76,7 +76,7 @@ h1{
     display: flex;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 150px;
+    margin-bottom: 130px;
 }
 #two #row{
     width: 100% !important;
@@ -129,27 +129,78 @@ h1{
 .button1:hover, .button2:hover{
     background: #202020 !important;
 }
-#four{
-    height: 950px;
+/*---------*/
+#three {
+    height: 567px;
+}
+.image{
+    margin-right: 5px;
+    position: relative;
+    float: left;
+    width: 471px;
+    height: 564px;
+}
+#item4{
+    margin-right: 0px !important;
+}
+.img{
+    display: block;
+    width: 100%;
+}
+.img_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../img/itemOverlay.png');
+    color: white;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.img_overlay:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.img_overlay:hover .img_title{
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.img_title{
+    font-size: 28px;
+    margin-top: 100px;
+}
+#four, #eight{
     flex-direction: column;
     display: flex;
     text-align: center;
     margin-top: 130px;
-    float: left;
-    width: 100%;
+    width: 100%; 
+    margin-bottom: 130px;
 }
-.text h1{
-    font-weight: bold;
+#four{
+    margin-bottom: 150px;
+}
+#four .text h1{
     font-family:'Times New Roman', Times, serif;
     color: #4d4d4d;
     font-size: 300%;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#four .text p{
+    margin-bottom: 100px;
 }
 .card-title{
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
 }
 .card-text{
-    color: gray;
+    color: rgb(163, 163, 163);
     font-size: 13px;
 }
 .text p{
@@ -158,22 +209,27 @@ h1{
     letter-spacing: .1rem;
     margin-left: 250px;
     margin-right: 250px;
-    color: gray;
+    color: rgb(146, 146, 146);
+    
 }
-#four .text{
+#eight .text{
     margin-bottom: 90px;
 }
-#four .card img{
+#eight .card img{
     margin: 20px;
 }
 .card{
-    height: 560px !important;
+    width: 103%;
+    height: 565px !important;
     border-radius: 0;
+}
+#four img{
+    border-radius: 2px;
 }
 #four .card:hover{
     box-shadow: 
-        0 0 0 2px rgb(255, 255, 255),
-        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+        0 0 0 5px rgb(255, 255, 255),
+        0 1em 1em rgba(93, 93, 93, 0.3);
     border: none;
 }
 .card-body{
@@ -199,17 +255,16 @@ h1{
     box-shadow: #202020;
 }
 #five{
+    display: block;
     background-color: #fff9f9;
     width: 100%;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 130px;
     padding-bottom: 120px;
-    height: 750px;
+    height: 720px;
 }
 #five #quote{
-    color: #fe817d;
-    font-size: 80px;
-    margin-bottom: 20px;
+    margin-bottom: -20px;
 }
 .carousel-indicators li{
     border-radius: 50%;
@@ -235,6 +290,7 @@ h1{
 .carousel-caption p{
     margin-left: 170px;
     margin-right: 170px;
+    color: black;
 }
 .carousel-caption img{
     margin-bottom: 30px;
@@ -243,12 +299,11 @@ h1{
     margin-bottom: 50px;
 }
 #six{
-    height: 850px;
     flex-direction: column;
     display: flex;
     text-align: center;
-    margin-top: 150px;
-    float: left;
+    align-items: center;
+    margin-top: 120px;
 }
 #six .text{
     margin-bottom: 90px;
@@ -259,23 +314,22 @@ h1{
 #six .card-title{
     margin-bottom: 5px !important;
 }
-.six{
-    max-width: 900px;
-}
 #six .container .card{
     position: relative;
-    height: 500px;
     box-shadow: 
         5px 5px 5px rgba(0, 0, 0, 0.0),
         5px 5px 5px rgba(255, 255, 255, 0);
-    border-radius: 15px;
+}
+#six h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 48px;
 }
 .teamCard{
     width: 80%;
-    height: 50px !important;
     margin: -20px auto;
     position: relative;
-    bottom: 60px;
+    bottom: 40px;
     background-color: white;
 }
 .teamCard h5{
@@ -285,8 +339,8 @@ h1{
     bottom: 100px;
     transition: 0.5s;
     box-shadow: 
-        0px 0px 10px rgba(0, 0, 0, 0.25),
-        0px 0px 10px rgba(0, 0, 0, 0.3);
+        0px 5px 5px rgba(0, 0, 0, 0.2),
+        0px 5px 5px rgba(0, 0, 0, 0.2);
     text-align: center !important;
 }
 .teamCard a{
@@ -295,65 +349,257 @@ h1{
     text-decoration: none;
     color: #000 !important;
 }
-.teamCard i{
-    margin-bottom: 100px;
-}
 .teamCard a:hover{
-    margin: 5px;
-    display: none;
-    text-decoration: none;
     color: #fe817d !important;
 }
 #six .card:hover .teamCard a{
     transition: 0.5s;
     display: unset;
-    margin-top: 20px;
 }
-#six .card:hover .teamCard a{
-    clear: both;
+#six .icons{
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 #seven{
-    margin-top: 1000px;
+    margin-top: 130px;
     background-color: #fff9f9;
-    align-items: center;
-    flex-direction: column;
     display: flex;
-    text-align: center;
-    height: 643px;
+    min-height: 642px;
 }
-input{
+#seven .one{
+    width: 40%;
+}
+#seven img{
+    filter:brightness(75%);
+    margin-left: -20px;
+}
+#seven .two{
+    width: 60%;
+}
+.form{
+    margin-left: 110px;
+}
+#seven input, select{
+    width: 320px;
+    height: 40px;
+    background-color: #fff9f9;
+    color: #60666d;
+    margin-right: 20px;
+    margin-top: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+#seven .form .row1{
+    margin-top: 80px;
+}
+#seven .row1{
+    margin-bottom: 0px;
+}
+#seven .row2 select{
+    font-size: 12px;
+    color: #b9b9b9;
+}
+#seven .row4{
+    margin-top: 50px;
+}
+#seven .row4 input{
+    width: 660px;
+}
+#seven .row5{
+    margin-top: 5px;
+}
+#seven input[type="submit"]{
     width: 200px;
+    height: 50px;
+    background-color: #fe817d;
+    color: white;
+    padding-right: 20px;
+    padding: 15px;
+    font-size: 14px;
+}
+#seven input::placeholder{
+    font-size: 12px;
+    color: rgb(190, 190, 190);
+}
+#seven select:after{
+    font-size: 12px;
+    border-bottom: 1px solid rgb(179, 179, 179);
+}  
+.select-box {
+    font-size: 12px;
+    color: #a8a8a8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../img/select-angle-down.png) no-repeat center right #fff9f9;
+}
+#seven_date{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../img/date.png) no-repeat center right #fff9f9;
+}
+#seven_time{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../img/time.png) no-repeat center right #fff9f9;
+}
+#eight h1{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: 30px;
+}
+#eight .card h4{
+    color: rgb(80, 80, 80);
+}
+#eight .card-body .button2{
+    margin-top: 20px;
+}
+#eight .card-text1{
+    font-size: 12px;
+    margin-top: -5px;
+}
+#eight .card-text2{
+    font-size: 14px;
+}
+#eight .card{
+    height: 590px !important;
+}
+#eight img{
+    border-radius: 2px;
+}
+#eight .card:hover{
+    box-shadow: 
+        0 0 0 5px rgb(255, 255, 255),
+        0 1em 1em rgba(93, 93, 93, 0.3);
+    border: none;
 }
 #nine{
-    margin-top: 150px;
-    height: 610px;
-
-}
-#nine span{
-    letter-spacing: .1rem;
-    color: #fe817d;
-    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    margin-bottom: 110px;
 }
 #nine h1{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 64px;
+    letter-spacing: 0.1rem;
+    text-align: center;
 }
-#nine p{
-    margin-bottom: 50px;
+#nine text{
+    margin-bottom: 200px;
 }
-#nine a{
-    text-decoration: none;
+#nine input, textarea{
+    width: 550px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    padding-left: 20px;
+}
+#nine input::placeholder{
+    font-size: 13px;
+    color: rgb(204, 204, 204);
+}
+#nine input[type="submit"]::placeholder{
+    margin-left: 40px;
+}
+#nine textarea{
+    height: 150px;
+    padding-top: 20px;
+}
+#nine textarea::placeholder{
+    font-size: 13px;
+    color: rgb(204, 204, 204);
+}
+#nine input:focus{
+    border: 0;
+}
+#nine input[type="submit"]{
+    width: 180px;
+    margin-left: 0px;
+    padding-right: 20px;
+}
+#nine .row .btn{
+    float: left;
+}
+#nine .row .contact{
+    padding: 10px;
+    padding-top: 50px;
+}
+#nine .row .contact img{
+    margin-top: 20px;
+}
+#nine .contact p{
+    margin-left: 85px;
+    margin-top: -20px;
+    color: rgb(124, 124, 124);
+}
+#nine .contact span{
+    margin-left: 30px;
+    color: rgb(124, 124, 124);
+}
+#nine .col-md-5{
+    padding-left: 50px;
+    font-size: 14px;
+}
+
+footer{
+    background-color: #fff9f9;
+}
+footer .row{
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+footer .logo a{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+footer li{
+    margin: 15Px;
+    margin-top: 20px;
+    font-size: 14px;
+    list-style: none;
+    float: left;
     color: black;
-    margin-right: 10px;
-    position: absolute;
-    margin-top: 7px;
+    font-weight: bold;
 }
-#nine input{
-    margin: 10px;
-    width: 100%;
+footer a{
+    color: black;
+    letter-spacing: 0.1rem;
 }
-#nine input[placeholder="WRITE COMMENT"]{
-    width: 200px;
+footer a:hover{
+    color: #fe817d;
+    text-decoration: none;
+}
+footer h2{
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.1rem;
+    font-size: 34px;
+}
+footer .social{
+    margin-top: 10px;
+}
+footer .social li{
+    margin: 0px;
+    border-right: 1px solid rgb(170, 170, 170);
+    height: 20px;
+}
+footer .social li a{
+    margin-top: -10px;
+}
+footer .social .last{
+    border-right: none;
+}
+footer{
+    height: 450px;
 }
